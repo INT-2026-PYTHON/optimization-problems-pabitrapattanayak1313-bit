@@ -80,7 +80,6 @@ overall O(n) algorithm.
 
 """
 
-# Brute Force Approach - O(n^2)
 def has_pair_brute(nums, k):
     for i in range(len(nums)):
         for j in range(i + 1, len(nums)):
@@ -89,7 +88,6 @@ def has_pair_brute(nums, k):
     return False
 
 
-# Optimized Approach Using Set - O(n)
 def has_pair_fast(nums, k):
     num_set = set(nums)
 
