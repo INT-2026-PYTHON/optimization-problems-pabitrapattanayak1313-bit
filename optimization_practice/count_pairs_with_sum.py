@@ -92,7 +92,6 @@ the overall algorithm runs in O(n).
 
 """
 
-# Brute Force Approach - O(n^2)
 def count_pairs_brute(nums, target):
     count = 0
 
@@ -103,8 +102,6 @@ def count_pairs_brute(nums, target):
 
     return count
 
-
-# Optimized Approach Using Dictionary - O(n)
 def count_pairs_fast(nums, target):
     freq = {}
     count = 0
