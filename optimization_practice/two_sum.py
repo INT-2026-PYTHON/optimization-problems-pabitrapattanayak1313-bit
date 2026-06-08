@@ -88,7 +88,7 @@ O(1) time, giving an overall O(n) algorithm.
 
 """
 
-# Brute Force Approach - O(n²)
+
 def two_sum_brute(nums, target):
     for i in range(len(nums)):
         for j in range(i + 1, len(nums)):
@@ -96,7 +96,6 @@ def two_sum_brute(nums, target):
                 return (i, j)
 
 
-# Optimized Approach Using Dictionary - O(n)
 def two_sum_fast(nums, target):
     seen = {}  
 
