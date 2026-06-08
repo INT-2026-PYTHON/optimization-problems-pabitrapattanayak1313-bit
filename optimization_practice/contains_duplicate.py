@@ -86,5 +86,5 @@ def has_duplicate_fast(nums):
 
 nums = list(map(int, input("Enter numbers separated by spaces: ").split()))
 
-print("Brute Force:", has_duplicate_brute(nums))
-print("Optimized:  ", has_duplicate_fast(nums))
+print(f"Brute Force: {has_duplicate_brute(nums)}")
+print(f"Optimized:   {has_duplicate_fast(nums)}")
