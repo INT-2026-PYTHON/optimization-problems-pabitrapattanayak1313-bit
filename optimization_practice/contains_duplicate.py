@@ -64,7 +64,6 @@ Optimized:   False  # O(n)
 
 """
 
-# Brute Force Approach - O(n^2)
 def has_duplicate_brute(nums):
     for i in range(len(nums)):
         for j in range(i + 1, len(nums)):
@@ -72,8 +71,6 @@ def has_duplicate_brute(nums):
                 return True
     return False
 
-
-# Optimized Approach Using Set - O(n)
 def has_duplicate_fast(nums):
     seen = set()
 
