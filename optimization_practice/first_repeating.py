@@ -83,7 +83,8 @@ element, giving an overall O(n) algorithm.
 =================================================
 
 """
-# Brute Force Approach - O(n^2)
+
+
 def first_repeating_brute(nums):
     earliest_second_index = len(nums)
     repeating_element = -1
@@ -98,7 +99,7 @@ def first_repeating_brute(nums):
     return repeating_element
 
 
-# Optimized Approach Using Set - O(n)
+
 def first_repeating_fast(nums):
     seen = set()
 
