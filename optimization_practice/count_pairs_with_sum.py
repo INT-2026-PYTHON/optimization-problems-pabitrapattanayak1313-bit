@@ -122,5 +122,5 @@ def count_pairs_fast(nums, target):
 nums = list(map(int, input("Enter numbers separated by spaces: ").split()))
 target = int(input("Enter target sum: "))
 
-print("Brute Force:", count_pairs_brute(nums, target))
-print("Optimized:  ", count_pairs_fast(nums, target))
+print(f"Brute Force: {count_pairs_brute(nums, target)}")
+print(f"Optimized:  {count_pairs_fast(nums, target)}")
