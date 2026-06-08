@@ -102,5 +102,5 @@ def has_pair_fast(nums, k):
 nums = list(map(int, input("Enter numbers separated by spaces: ").split()))
 k = int(input("Enter the value of k: "))
 
-print("Brute Force:", has_pair_brute(nums, k))
-print("Optimized:  ", has_pair_fast(nums, k))
+print(f"Brute Force: {has_pair_brute(nums, k)}")
+print(f"Optimized:   {has_pair_fast(nums, k)}")
