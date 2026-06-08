@@ -111,5 +111,5 @@ def first_repeating_fast(nums):
 
 nums = list(map(int, input("Enter numbers separated by spaces: ").split()))
 
-print("Brute Force:", first_repeating_brute(nums))
-print("Optimized:  ", first_repeating_fast(nums))
+print(f"Brute Force: {first_repeating_brute(nums)}")
+print(f"Optimized:   {first_repeating_fast(nums)}")
